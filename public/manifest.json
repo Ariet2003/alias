@@ -2,9 +2,23 @@
   "name": "Алиас оюну",
   "short_name": "Алиас оюну",
   "description": "Алиас оюну",
-  "start_url": "/alias",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#fdecc7",
   "theme_color": "#fdecc7",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
