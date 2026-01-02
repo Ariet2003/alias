@@ -1,0 +1,49 @@
+{
+  "name": "alias-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit",
+    "prettier:fix": "npx prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "clsx": "^2.1.1",
+    "colord": "^2.9.2",
+    "framer-motion": "^4.1.17",
+    "mobx": "^6.6.1",
+    "mobx-log": "^2.0.1",
+    "mobx-persist-store": "^1.0.6",
+    "mobx-react-lite": "^3.4.0",
+    "mobx-react-observer": "^1.0.3",
+    "popmotion": "^11.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-textfit": "^1.1.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.14",
+    "ts-essentials": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "@types/pg": "^8.16.0",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-textfit": "^1.1.4",
+    "@vitejs/plugin-react": "^5.0.4",
+    "pg": "^8.16.3",
+    "prettier": "2.6",
+    "typescript": "^4.6.4",
+    "vite": "^7.1.9"
+  },
+  "overrides": {
+    "react-textfit": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+}
