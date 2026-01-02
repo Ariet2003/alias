@@ -7,8 +7,8 @@ export function StartScreen() {
   return (
     <Modal>
       <div className="flex flex-col items-center">
-        <span className="text-4xl font-semibold pt-2">Alias game</span>
-        <p className="text mt-8 mb-0 pb-2">Seconds per round</p>
+        <span className="text-4xl font-semibold pt-2">Алиас оюну</span>
+        <p className="text mt-8 mb-0 pb-2">Раундга секунд</p>
         <div className="flex gap-3 w-full">
           {[10, 30, 60, 90].map((seconds) => (
             <motion.button
@@ -50,7 +50,7 @@ export function StartScreen() {
               duration: 0.3,
             }}
           >
-            Start!
+            Баштоо!
           </motion.div>
         </Button>
       </div>

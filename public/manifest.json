@@ -1,7 +1,7 @@
 {
-  "name": "Alias game",
-  "short_name": "Alias game",
-  "description": "Alias game",
+  "name": "Алиас оюну",
+  "short_name": "Алиас оюну",
+  "description": "Алиас оюну",
   "start_url": "/alias",
   "display": "standalone",
   "background_color": "#fdecc7",

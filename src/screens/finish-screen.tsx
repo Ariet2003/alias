@@ -7,7 +7,7 @@ export function FinishScreen() {
     <Modal marginTop={"32px"}>
       <div className="flex flex-col items-center z-[11] w-full">
         <span className="text-5xl font-bold mb-8">
-          Score: {store.guessed.length}
+          Упай: {store.guessed.length}
         </span>
 
         <div className="w-full mb-8 space-y-3">
@@ -51,7 +51,7 @@ export function FinishScreen() {
               store.playAgain();
             }}
           >
-            <span className="font-semibold text-lg">Play again!</span>
+            <span className="font-semibold text-lg">Кайра ойноо!</span>
           </Button>
 
           <button
@@ -60,7 +60,7 @@ export function FinishScreen() {
             }}
             className="text-text/60 text-sm hover:text-text/80 transition-colors mt-1"
           >
-            Quit
+            Чыгуу
           </button>
         </div>
       </div>
