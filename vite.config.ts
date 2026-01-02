@@ -13,7 +13,6 @@ export default defineConfig({
       }
     })
   ],
-  base: '/alias/',
   optimizeDeps: {
     include: ['popmotion'],
   },
