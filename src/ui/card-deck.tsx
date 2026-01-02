@@ -60,10 +60,10 @@ export function CardDeck() {
 
       <div className="flex gap-3 mt-12 w-[290px]">
         <Button onClick={handleSkip} variant="error" className="flex-1">
-          Skip
+          Кийинки
         </Button>
         <Button onClick={handleCorrect} variant="success" className="flex-1">
-          Correct
+          Туура тапты
         </Button>
       </div>
     </div>
